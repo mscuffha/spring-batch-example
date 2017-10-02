@@ -1,11 +1,12 @@
-# spring-batch-example
+# spring-batch-xml-example
 
-This project is to provide a working copy to keep adding different spring batch examples for practice.
+This project is to provide an xml example of a basic setup for spring batch.
 
 To get set up with the defaults:
   1. You need to have a mysql database created. (I called mine "springbatch").
   2. In that DB, you need to create a users table with the columns "id", "user_login", "password", and "age".
   3. In that table, you can use this script to populate it:
+  
       INSERT INTO `users`(`id`, `user_login`, `password`, `age`) VALUES (1,"mkyong","password",30);
 
       INSERT INTO `users`(`id`, `user_login`, `password`, `age`) VALUES (2,"user_a","password",25);
